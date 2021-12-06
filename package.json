@@ -4,8 +4,8 @@
   "description": "solutions of adventjs exercises",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test-watch": "jest --watch"
+    "test": "jest --verbose",
+    "test-watch": "jest --verbose --watch"
   },
   "repository": {
     "type": "git",
