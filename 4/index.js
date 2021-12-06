@@ -19,7 +19,8 @@ function createXmasTreeTrunk(width, treeHeight, trunkHeight) {
 
   return new Array(trunkHeight).fill(trunkRow).join('\n');
 }
-function createXmasTree(height) {
+
+export default function createXmasTree(height) {
   if (height < 1 || height > 100) return '';
 
   const width = height * 2 - 1;
@@ -30,5 +31,3 @@ function createXmasTree(height) {
     createXmasTreeTrunk(width, height, 2)
   );
 }
-
-console.log(createXmasTree(2));
