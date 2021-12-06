@@ -1,0 +1,30 @@
+{
+  "name": "adventjs",
+  "version": "1.0.0",
+  "description": "solutions of adventjs exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/flipasg/adventjs.git"
+  },
+  "keywords": [
+    "adventjs",
+    "advent-of-code",
+    "javascript"
+  ],
+  "author": "Iker Garcia <ikergarciadev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flipasg/adventjs/issues"
+  },
+  "homepage": "https://github.com/flipasg/adventjs#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.4.2",
+    "jest": "^27.4.3"
+  }
+}
