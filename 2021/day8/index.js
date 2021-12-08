@@ -9,8 +9,8 @@ export default function maxProfit(prices) {
     if(indexOfMaxNumber > indexOfMinNumber){
       return max - min;
     }
-    remainingPrices.splice(remainingPrices.indexOf(min), 1);
-    remainingPrices.splice(remainingPrices.indexOf(max), 1);
+    remainingPrices.splice(indexOfMinNumber, 1);
+    remainingPrices.splice(indexOfMaxNumber, 1);
     count--;
   } while (count > 0);
   return -1;
