@@ -5,7 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --verbose",
-    "test-watch": "jest --onlyChanged --verbose --watch"
+    "test-watch": "jest --verbose --watch",
+    "test:2021-day1": "jest --verbose --watch --testPathPattern=2021/day1",
+    "test:2021-day2": "jest --verbose --watch --testPathPattern=2021/day2",
+    "test:2021-day3": "jest --verbose --watch --testPathPattern=2021/day3",
+    "test:2021-day4": "jest --verbose --watch --testPathPattern=2021/day4",
+    "test:2021-day5": "jest --verbose --watch --testPathPattern=2021/day5",
+    "test:2021-day6": "jest --verbose --watch --testPathPattern=2021/day6",
+    "test:2021-day7": "jest --verbose --watch --testPathPattern=2021/day7",
+    "test:2021-day8": "jest --verbose --watch --testPathPattern=2021/day8"
   },
   "repository": {
     "type": "git",
