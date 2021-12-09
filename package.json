@@ -13,7 +13,8 @@
     "test:2021-day5": "jest --verbose --watch --testPathPattern=2021/day5",
     "test:2021-day6": "jest --verbose --watch --testPathPattern=2021/day6",
     "test:2021-day7": "jest --verbose --watch --testPathPattern=2021/day7",
-    "test:2021-day8": "jest --verbose --watch --testPathPattern=2021/day8"
+    "test:2021-day8": "jest --verbose --watch --testPathPattern=2021/day8",
+    "test:2021-day9": "jest --verbose --watch --testPathPattern=2021/day9"
   },
   "repository": {
     "type": "git",
