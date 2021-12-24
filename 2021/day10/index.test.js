@@ -12,7 +12,7 @@ describe('day 10 :: getCoins', () => {
 
   it('getCoins :: should return the change with the count of coins of each quantity', () => {
     testArguments.forEach((change, index) =>
-      expect(getCoins(change).toStrictEqual(expectedResults[index]))
+      expect(getCoins(change)).toStrictEqual(expectedResults[index])
     );
   });
 });
